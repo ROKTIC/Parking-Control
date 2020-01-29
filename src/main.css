@@ -57,13 +57,17 @@ a {
 }
 section{
     float: left;
-    height: 200px;
+    height: 294px;
+    background-color: #323347;
+    width: 1146px;
 }
-section {
-    background-color: green;
-    width: 604px;
+article{
+    float: left;
+    height: 344px;
+    background-color: #323347;
+    width: 1146px;
 }
-#wrap { margin:0; background-color: #050099; }
+#wrap { margin:0; background-color: white; }
 /* 메뉴바 */
 .menubar li ul {
     display:none;  /* 평상시에는 서브메뉴가 안보이게 하기 */
@@ -76,7 +80,7 @@ section {
     z-index:200;
 }
 header ul {
-    width: 100%;
+    width: 1366px;
     background-color: #323347;
     list-style-type: none;
     margin: 0px;
@@ -147,7 +151,7 @@ header ul li {
     padding-left: 16px;
     color: white;
     font-size: 14pt;
-    
+
 }
 .calculator{
     font-size: 12pt;
