@@ -1,22 +1,39 @@
-
-#wrap { margin:0 auto; background-color: #050099; }
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    background:transparent;
+}
+#wrap { margin:0; background-color: #050099; }
 /* 메뉴바 */
 .menubar li ul {
-    background: rgb(109,109,109);
     display:none;  /* 평상시에는 서브메뉴가 안보이게 하기 */
     height:80px;
     padding:0px;
     margin:0px;
     border:0px;
+    vertical-align:baseline;
     position:absolute;
-    width:200px;
     z-index:200;
 }
 nav ul {
     width: 100%;
-    background-color: #050099;
+    background-color: #323347;
     list-style-type: none;
-    margin: 0;
+    margin: 0px;
     padding: 0;
 }
 nav ul li {
@@ -24,17 +41,18 @@ nav ul li {
 }
 
 .name {
-    background-color: #050099;
+    background-color: #323347;
     width: 100px;
     text-align: center;
+    margin-top: 30px;
     font-weight: bold;
     float: right;
 }
 .name a {
     display: block;
     text-decoration: none;
-    color: white;
-    padding: 16px 16px;
+    color: #95a3c7;
+    padding: 0px 0px;
 }
 
 .dropdown {
@@ -43,10 +61,12 @@ nav ul li {
 
 .dropdown-menu {
     /*background-color: darkorange; */
-    color: white;
-    padding: 16px;
-    padding-left: 16px;
-    font-size: 16px;
+    color: #95a3c7;
+    padding: 0px;
+    margin-left: 20px;
+    padding-bottom: 0px;
+    alignment: center;
+    font-size: 14px;
     cursor: pointer;
 }
 
