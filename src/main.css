@@ -17,6 +17,52 @@ time, mark, audio, video {
     font-size:100%;
     background:transparent;
 }
+body {
+    line-height:1;
+}
+ol, ul
+{
+    list-style: none;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+nav {
+    background-color: #292a3f;
+    width: 220px;
+    float: left;
+    height: 700px;
+}
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration:none;
+}
+section{
+    float: left;
+    height: 200px;
+}
+section {
+    background-color: green;
+    width: 604px;
+}
 #wrap { margin:0; background-color: #050099; }
 /* 메뉴바 */
 .menubar li ul {
@@ -29,14 +75,14 @@ time, mark, audio, video {
     position:absolute;
     z-index:200;
 }
-nav ul {
+header ul {
     width: 100%;
     background-color: #323347;
     list-style-type: none;
     margin: 0px;
     padding: 0;
 }
-nav ul li {
+header ul li {
     display: inline-block;
 }
 
@@ -94,4 +140,17 @@ nav ul li {
 .dropdown-menu:hover:not(.name) {
     background-color: #050099;
     color: white;
+}
+
+/* Nav */
+.gatelist{
+    padding-left: 16px;
+    color: white;
+    font-size: 14pt;
+    
+}
+.calculator{
+    font-size: 12pt;
+    color: #95a3c7;
+    margin-left: 10px;
 }
