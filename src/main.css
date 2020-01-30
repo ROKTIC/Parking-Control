@@ -68,7 +68,9 @@ article{
     width: 1146px;
 }
 #wrap { margin:0; background-color: white; }
+#equipment  { margin-left: 16px;}
 /* 메뉴바 */
+.
 .menubar li ul {
     display:none;  /* 평상시에는 서브메뉴가 안보이게 하기 */
     height:80px;
@@ -89,6 +91,7 @@ header ul {
 header ul li {
     display: inline-block;
 }
+
 
 .name {
     background-color: #323347;
@@ -149,7 +152,7 @@ header ul li {
 /* Nav */
 .gatelist{
     padding-left: 16px;
-    color: white;
+    color: #95a3c7;
     font-size: 14pt;
 
 }
@@ -158,3 +161,14 @@ header ul li {
     color: #95a3c7;
     margin-left: 10px;
 }
+
+/* section */
+.table1{
+    border: 1px solid;
+    margin-left: 16px;
+    width: 286px;
+    height: 294px;
+    Border-radius: 6px;
+}
+.table1 th{ height : 20px }
+.table1 tr{height : 20px;}
