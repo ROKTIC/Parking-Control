@@ -67,8 +67,11 @@ article{
     background-color: #323347;
     width: 1146px;
 }
-#wrap { margin:0; background-color: white; }
+#wrap { margin:0; width:1366px; height:768px; background-color: white; }
 #equipment  { margin-left: 16px;}
+#accordian { background: #292a3f; width: 50px;color: white; box-shadow: 0 5px 15px 1px rgba(0, 0, 0, 0.6), 0 0 200px 1px rgba(255, 255, 255, 0.5); } /* 메뉴 스타일 */
+#wrong  { margin-left: 12px;}
+#gate{ }
 /* 메뉴바 */
 .
 .menubar li ul {
@@ -148,27 +151,37 @@ header ul li {
     background-color: #050099;
     color: white;
 }
-
 /* Nav */
-.gatelist{
-    padding-left: 16px;
-    color: #95a3c7;
-    font-size: 14pt;
+/* -- background: linear-gradient(to right, #0072dc, #00d5e2); 활성화 시 그라데이션 */
 
-}
-.calculator{
-    font-size: 12pt;
-    color: #95a3c7;
-    margin-left: 10px;
-}
+#accordian h3 { font-size: 14pt; height: 40px; padding: 16px; cursor: pointer; background: #292a3f;}
+#accordian h3:hover { text-shadow: 0 0 1px rgba(255, 255, 255, 0.7); }
+#accordian h3 span {margin-right: 10px; }  /* 아이콘폰트 스타일 */
+#accordian li { list-style-type: none; font-size:14pt; color: white; border-bottom:1px solid #383950; background-color: #232532;}
+
+#accordian ul ul li a { color: white; padding-left:20px; text-decoration: none; font-size: 11px; line-height: 27px; display: block; padding: 0 15px;
+    -webkit-transition: all 0.15s; -moz-transition: all 0.15s; -o-transition: all 0.15s; -ms-transition: all 0.15s; transition: all 0.15s; } /* Gate 1*/
+#accordian ul ul li a:hover { background: #292a3f; border-left: 5px solid #0091f7; }
+#accordian ul ul { display: none; }  /* active 클래스 외에 것은 보이지 않게 하기 */
+#accordian li.active ul { display: block; }
 
 /* section */
 .table1{
+    table-layout:auto;
     border: 1px solid;
     margin-left: 16px;
     width: 286px;
     height: 294px;
     Border-radius: 6px;
 }
-.table1 th{ height : 20px }
-.table1 tr{height : 20px;}
+.table1 th{}
+.table1 tr{}
+
+.table2{
+    table-layout:auto;
+    border: 1px solid;
+    margin-left: 16px;
+    width: 280px;
+    height: 294px;
+    Border-radius: 6px;
+}
