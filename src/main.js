@@ -1,3 +1,5 @@
+
+
 $(function(){
     $("#accordian h3").click(function(){
         $("#accordian ul ul").slideUp();
@@ -5,5 +7,5 @@ $(function(){
         {
             $(this).next().slideDown();
         }
-    })
-})
+    });
+});
