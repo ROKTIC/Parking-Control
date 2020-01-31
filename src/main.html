@@ -76,9 +76,10 @@
 
             <!-- section start-->
             <div id = "container">
-                <div class="section equipment">
+                <div class="section equipment" style="overflow: auto"> <!-- 스크롤 -->
                         <table class="table1" height="100%">
                               <th colspan="3" height="20%" style="background: #0091f7; color: white">장비현황</th>
+
                                     <tr height="20%">
                                         <td width="20%" style="background: #deeefc">상태</td>
                                         <td width="40%" style="background-color: #deeefc">주차장명</td>
@@ -89,23 +90,22 @@
                                         <td style="background-color: #f2f5f9">A 주차장</td>
                                         <td style="background-color: #f2f5f9">입구1</td>
                                     </tr>
+
                         </table>
 
                </div>
-                <div class="section wronglist">
-                    <!--
+                <div class="section wronglist"> <!-- 현재 article 영역에 배치되어 있어 section 영역에 드러나지 않는 문제 발생 -->
                         <table class="table2" height="100%">
-                            <th colspan="3" height="20%" style="background-color: #f14b7a; color: white">오인식 List</th>
-                            <tr height="20%">
-                                <td width="20%" style="background: #fbebf4">No.</td>
-                                <td width="40%" style="background-color: #fbebf4">입차일시</td>
-                                <td width="40%" style="background-color: #fbebf4">차량번호</td>
-                            </tr>
-                            <tr height="60%">
-                                <td style="background-color: #f2f5f9">GOOD</td>
-                            </tr>
+                            <th colspan="3" height="20%" style="background: #f14b7a; color: white">오인식 List</th>
+                                <tr height="20%">
+                                    <td width="20%" style="background: #fbebf4">No.</td>
+                                    <td width="40%" style="background-color: #fbebf4">입차일시</td>
+                                    <td width="40%" style="background-color: #fbebf4">차량번호</td>
+                                </tr>
+                                <tr height="60%">
+                                    <td style="background-color: #f2f5f9">GOOD</td>
+                                </tr>
                         </table>
-                        -->
                 </div>
                 <div class="section wrongsite">
 
@@ -118,18 +118,6 @@
             <div id = "list2">
                 <article>
                     <ul>
-                        <table class="table1" height="100%" style="margin-top: 24px">
-                            <th colspan="3" height="20%" style="background: #0091f7; color: white">장비현황</th>
-                            <tr height="20%">
-                                <td width="20%" style="background: #deeefc">상태</td>
-                                <td width="40%" style="background-color: #deeefc">주차장명</td>
-                                <td width="40%" style="background-color: #deeefc">정산기명</td>
-                            </tr>
-                            <tr height="60%">
-                                <td style="background-color: #f2f5f9">GOOD</td>
-                            </tr>
-                        </table>
-
                     </ul>
                 </article>
             </div>
