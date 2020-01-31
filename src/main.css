@@ -171,16 +171,28 @@ header ul li {
     width: 286px;
     height: 294px;
     border-radius: 6px;
-    background: #e7edf2;
+    background: #f2f5f9;
 
 }
 .table1 th{}
 .table1 tr{}
 
 .table2{
-    border: 10px solid yellow;
+    border: 1px solid;
     margin-left: 12px;
     width: 280px;
     height: 294px;
     Border-radius: 6px;
+    background: #f2f5f9;
+}
+.table3{
+    border: 1px solid;
+    margin-left: 12px;
+    width: 524px;
+    height: 294px;
+    Border-radius: 6px;
+    background: #f2f5f9;
+}
+.table3 tr td{
+    font-size: 11pt;
 }
