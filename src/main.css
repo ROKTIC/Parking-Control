@@ -151,7 +151,6 @@ header ul li {
 }
 /* Nav */
 /* -- background: linear-gradient(to right, #0072dc, #00d5e2); 활성화 시 그라데이션 */
-
 #accordian h3 { font-size: 14pt; height: 40px; padding: 16px; cursor: pointer; background: #292a3f;}  /* Gate 메인 */
 #accordian h3:hover { text-shadow: 0 0 1px; color: white; background:linear-gradient(to right, #0072dc, #00d5e2); } /*Gate에 마우스 커서 올라갔을 시 */
 #accordian h3 span {margin-right: 10px;}  /* 아이콘폰트 스타일 */
