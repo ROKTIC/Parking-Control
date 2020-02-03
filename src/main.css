@@ -74,7 +74,7 @@ article{
 #accordian { background: #292a3f; width: 50px;color: white; box-shadow: 0 5px 15px 1px rgba(0, 0, 0, 0.6), 0 0 200px 1px rgba(255, 255, 255, 0.5); } /* 메뉴 스타일 */
 
 #container{float:left; width:1146px; height: 294px; background-color: #323347;}
-#gate{ }
+#inoutlist{float:left; width:1146px; height: 368px; background-color: #323347; } /* 662-344 = 368 */
 /* 메뉴바 */
 .menubar li ul {
     display:none;  /* 평상시에는 서브메뉴가 안보이게 하기 */
@@ -195,4 +195,15 @@ header ul li {
 }
 .table3 tr td{
     font-size: 11pt;
+}
+.table4{
+    border: 1px solid;
+    margin-top: 24px;
+    margin-left: 16px;
+    width: 550px; /* 1103 */
+    height: 344px;
+    Border-radius: 6px;
+}
+.table4 tr td {
+    color: white;
 }
