@@ -19,6 +19,13 @@ time, mark, audio, video {
 }
 body {
     line-height:1;
+    scrollbar-face-color:#ffffff;
+    scrollbar-highlight-color:#d8d8d8;
+    scrollbar-3dlight-color:#ffffff;
+    scrollbar-shadow-color:#d8d8d8;
+    scrollbar-darkshadow-color:#ffffff;
+    scrollbar-track-color:#f8f8f8;
+    scrollbar-arrow-color:#7f7f7f;
 }
 ol, ul
 {
@@ -205,5 +212,6 @@ header ul li {
     Border-radius: 6px;
 }
 .table4 tr td {
-    color: white;
+    height : 50%;
+    color: #95a3c7;
 }
