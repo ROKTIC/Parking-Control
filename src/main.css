@@ -70,18 +70,21 @@ section{
     width: 1146px;
 }
 */
-
+/*
 article{
     float: left;
     height: 344px;
     background-color: #323347;
     width: 1146px;
 }
+*/
+
 #wrap { margin:0; width:100%; height:100%; background-color: white; }
 #accordian { background: #292a3f; width: 50px;color: white; box-shadow: 0 5px 15px 1px rgba(0, 0, 0, 0.6), 0 0 200px 1px rgba(255, 255, 255, 0.5); } /* 메뉴 스타일 */
 
-#container{float:left; width:1146px; height: 294px; background-color: #323347;}
-#inoutlist{float:left; width:1146px; height: 368px; background-color: #323347; } /* 662-344 = 368 */
+#container{float:left; width:1146px; height: 662px; background-color: #323347;}
+
+/*#inoutlist{float:left; width:1146px; height: 368px; background-color: #323347; } */
 /* 메뉴바 */
 .menubar li ul {
     display:none;  /* 평상시에는 서브메뉴가 안보이게 하기 */
